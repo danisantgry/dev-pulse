@@ -1,0 +1,32 @@
+{
+  "name": "dev-pulse",
+  "version": "0.1.0",
+  "description": "A private local dashboard for checking machine health and developer environment status.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server/index.ts",
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "preview": "tsx src/server/index.ts --prod"
+  },
+  "keywords": [
+    "dashboard",
+    "developer-tools",
+    "system-health",
+    "typescript",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^6.0.3",
+    "vitest": "^3.2.4"
+  }
+}
