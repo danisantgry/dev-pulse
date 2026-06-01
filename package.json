@@ -3,6 +3,17 @@
   "version": "0.1.0",
   "description": "A private local dashboard for checking machine health and developer environment status.",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danisantgry/dev-pulse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danisantgry/dev-pulse/issues"
+  },
+  "homepage": "https://github.com/danisantgry/dev-pulse#readme",
   "scripts": {
     "dev": "tsx src/server/index.ts",
     "build": "tsc && vite build",
