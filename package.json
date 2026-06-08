@@ -1,6 +1,6 @@
 {
   "name": "dev-pulse",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A private local dashboard for checking machine health and developer environment status.",
   "type": "module",
   "engines": {

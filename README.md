@@ -39,6 +39,10 @@ npm run preview
 
 `GET /api/report` returns a JSON report with system, tools, ports, and process data.
 
+## Privacy
+
+`dev-pulse` is designed as a local-only diagnostics tool. See [`docs/PRIVACY_MODEL.md`](docs/PRIVACY_MODEL.md) for what the report contains and what it does not send anywhere.
+
 ## Roadmap
 
 - Export Markdown reports.

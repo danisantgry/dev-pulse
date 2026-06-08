@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-06-08
+
+- Added a privacy model documenting local-only scope and report contents.
+- Updated README with privacy guidance for copied diagnostic reports.
+
 ## 0.1.1 - 2026-06-01
 
 - Updated test tooling to remove known development dependency vulnerabilities.
